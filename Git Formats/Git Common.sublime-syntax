@@ -149,7 +149,7 @@ contexts:
           https?://(?:(?:[\w\d\-]+(?:\.[\w\d\-.]+)+)|localhost)  # http://
         | www\.[\w\d\-]+(?:\.[\w\d\-.]+)+                        # www.
         )
-        /?[\w\d\-.?,!'(){}\[\]/+&@%$#=:"|~;]*                    # url path and query string
+        /?[\w\d\-.?,!(){}\[\]/+&@%$#=:|~;]*                      # url path and query string
         [\w\d\-~:/#@$*+=]                                        # allowed end chars
       scope: markup.underline.link.git
 
